@@ -5,8 +5,8 @@ const books=[
         pubDate:"2021-08-05",
         language:"en",
         numPage:"250",
-        author:[1,2],
-        publications:[1],
+        author:["1","2"],
+        publications:["1"],
         category:["tech","space","education"]
     }
 ]
@@ -29,6 +29,11 @@ const publications=[
         id:"1",
         name:"spacex",
         books:["1234book"]
+    },
+    {
+        id:"2",
+        name:"space2x",
+        books:[]
     }
 ]
 
